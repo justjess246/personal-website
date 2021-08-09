@@ -26,6 +26,15 @@ const NavigationBar = () => {
                         <NavItem>
                             <NavLink to='/'>Home</NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink to='/projects'>Projects</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='/art'>Art</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink to='/contact'>Contact</NavLink>
+                        </NavItem>
                     </NavMenu>
                 </NavBarContainer>
             </NavBar>
