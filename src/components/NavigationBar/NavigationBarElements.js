@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { AiOutlineAliwangwang } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { Container } from '../../GlobalStyles';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 export const NavBar = styled.nav`
     background: #101522;
@@ -10,7 +11,8 @@ export const NavBar = styled.nav`
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 999;
 `
@@ -53,7 +55,7 @@ export const NavItem = styled.li`
     }
 `
 
-export const NavLink = styled(Link)`
+export const NavLink = styled(HashLink)`
     color: #fff;
     display: flex;
     align-items: center;

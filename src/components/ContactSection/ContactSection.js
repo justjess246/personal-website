@@ -27,7 +27,7 @@ import {
 
 function ContactSection() {
     return (
-        <ContactContainer>
+        <ContactContainer id="contact">
             <ContactRow>
                 <ContactColumn>
                     <ImgWrapper>
@@ -47,7 +47,7 @@ function ContactSection() {
             
             <SocialMedia>
                 <SocialMediaWrap>
-                <SocialLogo to='/'>
+                <SocialLogo smooth to='/#top'>
                     <SocialIcon />
                     JB
                 </SocialLogo>

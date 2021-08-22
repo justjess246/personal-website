@@ -13,7 +13,7 @@ import {
 function ArtSection() {
  
       return (
-        <SlideSection>
+        <SlideSection id="art">
         <ArtHeading>Art</ArtHeading>
           <Slide easing="ease">
             <IndividualSlide>

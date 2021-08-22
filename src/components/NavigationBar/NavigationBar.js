@@ -27,13 +27,13 @@ const NavigationBar = () => {
                             <NavLink to='/'>Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/projects'>Projects</NavLink>
+                            <NavLink smooth to={'/page#projects'}>Projects</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/art'>Art</NavLink>
+                            <NavLink smooth to={'/page#art'}>Art</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/contact'>Contact</NavLink>
+                            <NavLink smooth to={'/page#contact'}>Contact</NavLink>
                         </NavItem>
                     </NavMenu>
                 </NavBarContainer>

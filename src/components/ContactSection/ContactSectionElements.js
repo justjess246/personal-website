@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { AiOutlineAliwangwang } from 'react-icons/ai'
 
 export const ContactContainer = styled.div`
@@ -25,7 +26,7 @@ export const SocialMediaWrap = styled.div`
   margin: 40px auto 0 auto;
 `;
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled(HashLink)`
   color: #fff;
   justify-self: start;
   cursor: pointer;
