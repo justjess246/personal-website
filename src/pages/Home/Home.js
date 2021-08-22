@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { homeObjOne, homeObjTwo } from './HomeElements';
+import { AboutSection, FeaturedProjects } from '../../components/ComponentsIndex';
 
-const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
+function Home() {
+  return (
+    <>
+      <AboutSection {...homeObjOne} />
+      <FeaturedProjects {...homeObjTwo} />
+    </>
+  );
 }
 
-export default Home
+export default Home;
