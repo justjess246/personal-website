@@ -1,12 +1,13 @@
 import React from 'react';
 import { homeObjOne, homeObjTwo } from './HomeElements';
-import { AboutSection, FeaturedProjects } from '../../components/ComponentsIndex';
+import { AboutSection, FeaturedProjects, ArtSection } from '../../components/ComponentsIndex';
 
 function Home() {
   return (
     <>
       <AboutSection {...homeObjOne} />
-      <FeaturedProjects {...homeObjTwo} />
+      <FeaturedProjects/>
+      <ArtSection />
     </>
   );
 }

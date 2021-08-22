@@ -33,7 +33,8 @@ export const ProjectsCard = styled.div`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 420px;
-  height: 600px;
+  /* height: 600px; */
+  height: 450px;
   text-decoration: none;
   border-radius: 4px;
 

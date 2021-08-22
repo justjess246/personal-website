@@ -13,7 +13,6 @@ import {
   ProjectsCardFeatures,
   ProjectsCardFeature,
   ProjectsButtonWrapper,
-  ImgWrapper,
   Img,
 } from './FeaturedProjectsElements';
 
@@ -36,9 +35,9 @@ function FeaturedProjects(
                       <Img src={require('../../assets/bubble_math.png').default} />
                     </a>
                   <ProjectsCardFeatures>
-                    <ProjectsCardFeature>Developed with a team of 4 designers and 3 programmers for a hackathon</ProjectsCardFeature>
+                    {/* <ProjectsCardFeature>Developed with a team of 4 designers and 3 programmers for a hackathon</ProjectsCardFeature>
                     <ProjectsCardFeature>Intended to provide children a fun way to develop their basic algebra skills</ProjectsCardFeature>
-                    <ProjectsCardFeature>Added game elements like bouncing bubbles and popup screens with listed languages and tools</ProjectsCardFeature>
+                    <ProjectsCardFeature>Added game elements like bouncing bubbles and popup screens with listed languages and tools</ProjectsCardFeature> */}
                   </ProjectsCardFeatures>
                   <ProjectsButtonWrapper>
                     <a href='https://glitch.com/edit/#!/math-dancing-app' target='_blank'>
@@ -55,8 +54,8 @@ function FeaturedProjects(
                       <Img src={require('../../assets/reopening.png').default} />
                     </a>
                   <ProjectsCardFeatures>
-                    <ProjectsCardFeature>Created a machine learning model that analyzes tweets from US states and returns if they’re lenient, neutral, or against reopening</ProjectsCardFeature>
-                    <ProjectsCardFeature>Intended for obtaining a general feeling among people in response to the news of reopening during COVID</ProjectsCardFeature>
+                    {/* <ProjectsCardFeature>Created a machine learning model that analyzes tweets from US states and returns if they’re lenient, neutral, or against reopening</ProjectsCardFeature>
+                    <ProjectsCardFeature>Intended for obtaining a general feeling among people in response to the news of reopening during COVID</ProjectsCardFeature> */}
                   </ProjectsCardFeatures>
                   <ProjectsButtonWrapper>
                     <a href='https://github.com/justjess246/state-reactions-to-reopening' target='_blank'>
