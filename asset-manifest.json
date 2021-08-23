@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/personal-website/static/js/main.14612ea6.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.14612ea6.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.055853b1.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.055853b1.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/personal-website/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.3d407979.chunk.js": "/personal-website/static/js/2.3d407979.chunk.js",
+    "static/js/2.3d407979.chunk.js.map": "/personal-website/static/js/2.3d407979.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/personal-website/static/css/2.b57b7cfd.chunk.css.map",
+    "static/js/2.3d407979.chunk.js.LICENSE.txt": "/personal-website/static/js/2.3d407979.chunk.js.LICENSE.txt",
+    "static/media/Jessica_Burroughs_Resume.pdf": "/personal-website/static/media/Jessica_Burroughs_Resume.194ed94d.pdf",
+    "static/media/bubble_math.png": "/personal-website/static/media/bubble_math.094b2222.png",
+    "static/media/contact_clean2.png": "/personal-website/static/media/contact_clean2.1b73f322.png",
+    "static/media/image1.jpg": "/personal-website/static/media/image1.f1d91c0f.jpg",
+    "static/media/image2.jpg": "/personal-website/static/media/image2.fe2c4304.jpg",
+    "static/media/image3.jpg": "/personal-website/static/media/image3.fa17cb20.jpg",
+    "static/media/image4.jpg": "/personal-website/static/media/image4.95c56d80.jpg",
+    "static/media/reopening.png": "/personal-website/static/media/reopening.f1b783a0.png",
+    "static/media/svg-1.svg": "/personal-website/static/media/svg-1.c9c88a21.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.055853b1.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.3d407979.chunk.js",
+    "static/js/main.14612ea6.chunk.js"
+  ]
+}
