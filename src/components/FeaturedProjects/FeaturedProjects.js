@@ -15,6 +15,7 @@ import {
   ProjectsButtonWrapper,
   Img,
 } from './FeaturedProjectsElements';
+import { ImgWrapper } from '../AboutSection/AboutSectionElements';
 
 function FeaturedProjects(
   img,
@@ -31,9 +32,11 @@ function FeaturedProjects(
                 <ProjectsCardInfo>
                   <ProjectsCardPlan>Bubble Math</ProjectsCardPlan>
                   <ProjectsCardLength>JavaScript, p5.js library, HTML, CSS | Oct. 2020</ProjectsCardLength>
-                    <a href = 'https://glitch.com/~math-dancing-app' target='_blank'>
-                      <Img src={require('../../assets/bubble_math.png').default} />
-                    </a>
+     
+                      <a href = 'https://glitch.com/~math-dancing-app' target='_blank'>
+                        <Img src={require('../../assets/bubble_math.png').default} />
+                      </a>
+         
                   <ProjectsCardFeatures>
                     {/* <ProjectsCardFeature>Developed with a team of 4 designers and 3 programmers for a hackathon</ProjectsCardFeature>
                     <ProjectsCardFeature>Intended to provide children a fun way to develop their basic algebra skills</ProjectsCardFeature>
