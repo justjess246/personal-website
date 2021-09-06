@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { AiOutlineAliwangwang } from 'react-icons/ai'
 
+export const ContactSec = styled.div`
+  color: #fff;
+  padding: 20px 0;
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+`
+
 export const ContactContainer = styled.div`
   background-color: #101522;
   padding: 4rem 0 2rem 0;
@@ -24,6 +30,10 @@ export const SocialMediaWrap = styled.div`
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
 `;
 
 export const SocialLogo = styled(HashLink)`
@@ -84,6 +94,10 @@ export const TextWrapper = styled.div`
 
   padding-top: 0;
   padding-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 65px;
+  }
 `;
 
 export const ContactColumn = styled.div`
@@ -91,8 +105,15 @@ export const ContactColumn = styled.div`
   padding-right: 15px;
   padding-left: 15px;
   flex: 1;
-  max-width: 100%;
+  max-width: 50%;
   flex-basis: 50%;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const ContactRow = styled.div`
